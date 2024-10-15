@@ -1,0 +1,138 @@
+body, html{
+  background-color: #9FB1A4;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*Formulario*/
+
+.L-Caja{
+  padding: 50px;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color:#D8E7DD;
+}
+.L-Formulario{
+  margin-top: 20px;
+}
+
+h1{
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+
+h3{
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  color: rgb(57, 55, 55); 
+}
+
+#condiciones{
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #6f8e79;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #7E9284;
+}
+
+#mensaje{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#contraseña{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#ejemplo{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#ejem{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#numero{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 600px) {
+  .container {
+      width: 100%;
+      padding: 1em;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+      width: 90%;
+      padding: 1.5em;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  .container {
+      width: 80%;
+      padding: 2em;
+  }
+}
+
+
+
+
+
+
+
+

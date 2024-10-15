@@ -1,0 +1,355 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(
+    180deg,
+    hsl(93deg 44% 95%) 0%,
+    hsl(93deg 31% 92%) 5%,
+    hsl(93deg 24% 90%) 10%,
+    hsl(93deg 20% 87%) 14%,
+    hsl(93deg 18% 85%) 19%,
+    hsl(93deg 16% 82%) 24%,
+    hsl(93deg 15% 80%) 29%,
+    hsl(93deg 14% 77%) 33%,
+    hsl(93deg 13% 74%) 38%,
+    hsl(92deg 12% 72%) 43%,
+    hsl(92deg 11% 69%) 48%,
+    hsl(92deg 11% 67%) 52%,
+    hsl(92deg 11% 65%) 57%,
+    hsl(92deg 10% 62%) 62%,
+    hsl(92deg 10% 60%) 67%,
+    hsl(92deg 10% 57%) 71%,
+    hsl(92deg 9% 55%) 76%,
+    hsl(92deg 9% 52%) 81%,
+    hsl(92deg 9% 50%) 86%,
+    hsl(92deg 9% 48%) 90%,
+    hsl(92deg 10% 45%) 95%,
+    hsl(93deg 11% 43%) 100%
+  );
+  
+  }
+
+
+
+/*Menu*/
+
+.L-Menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:#46594A ;
+    color:white;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 1000;  
+}
+
+.L-TituloHome{
+    font-size: 30px;
+}
+
+a {
+ text-decoration: none;
+ color: white;
+ padding: 10px 20px;
+ margin: 0 10px;
+ font-size: 20px;
+}
+
+/*Footer*/
+
+footer {
+    margin-top: auto;
+    padding:10px;
+    background-color:hsl(133, 12%, 31%) ;
+    color: white;
+    text-align: center;
+    
+   
+}
+
+.L-Logos{
+ width: 40px;
+ margin: 10px;
+
+}
+
+
+/*Información Billie 1*/
+
+.L-Informacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.L-Informacion .L-ImgBillie{
+   flex: 1;
+   max-width: 400px;
+   margin-right: 100px;
+   margin-left: -50px;
+}
+
+.L-Informacion .L-ImgBillie img{
+   max-width: 100%;
+   height: auto;
+    
+ }
+
+ .L-Informacion .L-InfoBio {
+    flex: 2;
+    padding-left: 20px;
+ }
+
+ .L-Informacion .L-InfoBio h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+ }
+
+ .L-Informacion .L-InfoBio p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+ }
+
+ /*Información Billie 2*/
+
+ .L-Hermanoyella{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+ }
+
+ .L-Hermanoyella .L-Infoherel{
+    flex: 2;
+    padding-right: 250px;
+ }
+
+ 
+ .L-Hermanoyella .L-Infoherel p{
+   font-size: 16px;
+   line-height: 1.6;
+   text-align: justify;
+ }
+
+ 
+ .L-Hermanoyella .L-ImgDerecho{
+    flex: 1;
+    max-width: 800px;
+    margin-left: 90px;
+ }
+
+ .L-Hermanoyella .L-ImgDerecho img{
+    max-width: 100%;
+    height: auto;
+ }
+
+/*Imagen Final y Texto 3 y 4*/
+
+.L-ImgFinal{
+    display: flex;
+    justify-content: center;
+}
+
+.L-TextoF{
+   font-size: 16px;
+   line-height: 1.6;
+   text-align: justify;
+   flex: 2;
+   padding: 100px;
+}
+
+.Lfotosfinal{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.Lfotosfinal img{
+    width: 400px;
+}
+
+/*Responsive*/
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 1em;
+    }
+  }
+  
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        width: 90%;
+        padding: 1.5em;
+    }
+  }
+  
+  
+  @media (min-width: 1025px) {
+    .container {
+        width: 80%;
+        padding: 2em;
+    }
+  }
+  
+/*Círculo de Carga */
+
+#LCirculocarga{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    
+}
+
+.L-Circulo{
+    border: 10px solid #add89d;
+    border-radius: 50%;
+    border-top: 10px solid #37532d;
+    width: 35px;
+    height: 35px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+/*Cartel*/
+
+#Lcartelfinal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:white; 
+}
+.L-BienCartel{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+#Botondebillie{
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:#46594a ;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#LContenidodeP{
+    display: none;
+}
+
+/* Pop-up */
+
+#LPopUp{
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color:hsl(92deg 12% 72%);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+    border-radius: 10px;
+  }
+
+  #LfondoPop {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 500;
+  }
+
+  .Lcerrar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #46594a;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+/*Coockies*/
+
+#LFCoockie{
+    display: none;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    background-color: #333333;
+    color:white;
+    text-align: center;
+    padding: 15px;
+}
+
+#LFCoockie button{
+ background-color: #46594A;
+ color: white;
+ padding: 10px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+
+/*Pagina Canciones*/
+
+#L-letra{
+    margin: auto;
+    height: 50%;
+    width: 80%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    line-height: 47px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.LContenedorcanciones{
+    margin: auto;
+    height: 50%;
+    width: 23%;
+    background-color: rgba(74, 102, 74, 0.5);
+    border-radius: 5px;
+}

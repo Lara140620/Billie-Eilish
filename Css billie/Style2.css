@@ -1,0 +1,121 @@
+
+
+
+h1 {
+    text-align: center;
+    color: #1b3f27;
+}
+
+.Lnavboton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    display: inline-block;
+    padding: .7rem 1.5rem;
+    margin: .7rem;
+    background-color: #0b422f;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+
+
+img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.Lnavboton button {
+    padding: 0; 
+    border: none; 
+    background: none; 
+    width: 250px; 
+    height: 250px; 
+}
+
+.Lnavboton button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+
+
+
+
+/* Transición suave para contenido cargado */
+#LContenedorBillie p {
+    font-size: 18px;
+    color: #000000;
+    margin: 10px;
+    
+}
+
+/* Alinear el contenedor y hacerlo responsivo */
+#LContenedorBillie {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #LContenedorBillie {
+        padding: 15px;
+    }
+}
+
+
+
+
+/* lista de canciones */
+
+#songList {
+    width: 600px; 
+    margin: 20px auto;
+    color: white;
+}
+
+
+.song-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #46594A;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.song-item:hover {
+    background-color: #313d33;
+}
+
+.song-number {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.song-title {
+    font-size: 16px;
+    flex: 1;
+}
+
+.song-duration {
+    font-size: 14px;
+}

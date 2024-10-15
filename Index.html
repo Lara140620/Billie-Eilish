@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lara Olcesi</title>
+
+  <!--Link CSS-->
+  <link rel="stylesheet" href="CSS\Styles.css">
+  
+
+</head>
+<body>
+ <section class="L-Caja">
+  <div class="L-cajaprincipal">
+    <div class="L-Titulos">
+      <h1>Bienvenido!</h1>
+      <h3>Envia un mensaje a Billie Eilish</h3>
+    </div>
+    <div class="L-Formulario">
+      <form id="formulario" onsubmit="validarFormulario(event)">
+        <input type="mensaje" id="mensaje"  maxlength="30" placeholder="Escribe Aqui" required>
+        <br>
+        <br>
+        <input type="password" id="contraseña" placeholder="Contraseña" minlength="5" required>
+        <br>
+        <br>
+        <label for="condiciones">
+        <input type="checkbox" id="condiciones" onclick="mostrarInputNumero()">
+        Aceptar términos y condiciones
+        </label>
+        <br>
+        <div id="inputNumero" style="display: none;">
+          <label for="numero">Ingrese su Numero de fila</label>
+          <input type="number" id="numero" name="numero" min="30" max="50">
+        </div>
+        <br>
+        <label for="ejemplo">Fecha de Concierto:</label>
+        <input type="date" id="ejemplo" min="2024-01-01" max="2024-12-31" required>
+        <span id="fechaError" class="error"></span>
+        <br>
+        <br>
+        <input type="submit" value="Enviar" >
+      </form>
+
+    </div>
+   
+  </div>
+
+ </section>
+
+
+
+<!--Link Js-->
+<script src="JS\Script.js"></script>
+
+
+</body>
+</html>
