@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!--Link CSS-->
+<link rel="stylesheet" href="./CSS/StyleHome.css">
+<link rel="stylesheet" href="./Css billie/Style2.css">
+  
+</head>
+<body>
+
+    <!--Menu --> 
+<header>
+    <componente-menu></componente-menu>
+</header>
+
+    <h1>Lista de Tareas</h1>
+    <ul id="taskList"></ul>
+<a href="https://github.com/ghami20/examplejsonbin">GitHub</a>
+    <div>
+        <input type="text" id="newTask" placeholder="Nueva tarea">
+        <input type="file" id="taskImage" accept="image/*">
+        <button onclick="addTask()">Agregar Tarea</button>
+    </div>
+
+
+<!-- Footer --> 
+<footer>
+    <componente-footer></componente-footer>
+</footer>
+
+<!-- Link Js -->
+
+<script src="./JS/Script.js"></script>
+<script src="./Componentes/Comp.Js"></script>
+<script src="./Js ajax/Script2.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+</html>
