@@ -10,6 +10,7 @@ class componenteMenu extends HTMLElement {
         <div class="L-ladoderecho">
             <a href="#biografia">Biografía</a>
             <a href="#carrera">Carrera Artística</a>
+            <a href="./Pag/Lista.html">Fotos Fans</a>
         </div>
     </nav>
         `;
