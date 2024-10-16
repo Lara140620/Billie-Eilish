@@ -173,12 +173,15 @@ img {
     color: white;
     font-size: 25px;
     font-weight: bolder;
+    margin: 8px;
   }
   
   .title-2 {
     color: white;
     font-size: 12px;
     font-weight: bold;
+    margin: -10px;
+    margin-left: 11px;
   }
   
   .time {
