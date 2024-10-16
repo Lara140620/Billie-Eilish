@@ -144,6 +144,7 @@ img {
     background: #191414;
     border-radius: 10px;
     padding: 10px;
+    align-items: center;
   }
   
   .top {
