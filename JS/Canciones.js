@@ -10,10 +10,9 @@ fetch('https://api.lyrics.ovh/v1/Billie Eilish/Getting older')
 
 
 
+// Pagina de Lista 
 
-  // Lista 
-
-  const apiKey = '$2a$10$8exKDN.yKKV2jBOb1zn5Feo/w42l679Lk.SzjA.9R0MUIgdpxufD.'; //JSONbin apiKey https://jsonbin.io/app/app/api-keys
+const apiKey = '$2a$10$8exKDN.yKKV2jBOb1zn5Feo/w42l679Lk.SzjA.9R0MUIgdpxufD.'; //JSONbin apiKey https://jsonbin.io/app/app/api-keys
 const binId = '670fad2facd3cb34a897fac4'; //JSONbin ID https://jsonbin.io/app/account/summary
 const idImgur = '34defce0edb2505'; //Imgur API Key https://api.imgur.com/oauth2/addclient
 
