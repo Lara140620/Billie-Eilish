@@ -31,12 +31,13 @@ document.getElementById('Happier').addEventListener('click', function() {
 
 //Spotify
 document.addEventListener('DOMContentLoaded', function () {
-    const audio = new Audio('song.mp3'); // Ruta de tu archivo de audio
-    const playPauseButton = document.querySelector('.play_pause_button');
+    const audio = new Audio('song.mp3'); // Asegúrate de que el archivo esté en la carpeta correcta o modifica la ruta
+    const playPauseButton = document.querySelector('.controls svg:nth-child(3)'); // Elige el tercer SVG, que es el botón de play/pause
     const elapsedTime = document.querySelector('.elapsed');
     const currentTimeDisplay = document.querySelector('.time_now');
     const fullTimeDisplay = document.querySelector('.time_full');
-    const volumeSlider = document.querySelector('.volume .slider .green');
+    const volumeSlider = document.querySelector('.volume .slider');
+    const volumeGreen = document.querySelector('.volume .green');
     const volumeCircle = document.querySelector('.volume .circle');
 
     let isPlaying = false;
@@ -45,8 +46,10 @@ document.addEventListener('DOMContentLoaded', function () {
     playPauseButton.addEventListener('click', function () {
         if (isPlaying) {
             audio.pause();
+            playPauseButton.style.color = '#d9d9d9'; // Cambia el color del botón al pausar
         } else {
             audio.play();
+            playPauseButton.style.color = '#1ed760'; // Cambia el color al reproducir
         }
         isPlaying = !isPlaying;
     });
@@ -72,9 +75,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Control de volumen
     volumeSlider.addEventListener('click', function (event) {
-        const rect = event.target.getBoundingClientRect();
+        const rect = volumeSlider.getBoundingClientRect();
         const percentage = (event.clientX - rect.left) / rect.width;
         audio.volume = percentage;
+        volumeGreen.style.width = `${percentage * 100}%`;
         volumeCircle.style.left = `${percentage * 100}%`;
     });
+
+    // Cargar la canción para obtener metadatos (evita que la canción empiece automáticamente)
+    audio.load();
 });
