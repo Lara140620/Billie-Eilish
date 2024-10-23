@@ -32,7 +32,7 @@ document.getElementById('Happier').addEventListener('click', function() {
 
 // Play 
 document.addEventListener('DOMContentLoaded', function () {
-    const audio = new Audio('song.mp3'); // Reemplaza 'song.mp3' con la ruta de tu archivo de audio
+    const audio = new Audio('https://www.youtube.com/embed/7AS9r_E0PY4?si=JKsz4h_siS8YVYzw'); // Reemplaza 'song.mp3' con la ruta de tu archivo de audio
     const playPauseButton = document.getElementById('playPauseButton');
     const progress = document.getElementById('progress');
     const currentTimeDisplay = document.getElementById('currentTime');
