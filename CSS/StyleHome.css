@@ -372,3 +372,16 @@ footer {
     cursor: pointer;
     font-size: 1.5rem;
 }
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    font-size: 14px;
+}
