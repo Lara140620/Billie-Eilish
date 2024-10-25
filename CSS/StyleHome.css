@@ -416,7 +416,6 @@ input[type="file"] {
 }
 
 button {
-    display: flex;
     background-color: #007BFF;
     color: white;
     border: none;
@@ -424,7 +423,10 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    justify-content: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
 }
 
 button:hover {
