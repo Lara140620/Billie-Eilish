@@ -416,7 +416,7 @@ input[type="file"] {
 }
 
 button {
-    background-color: #007BFF;
+    background-color: #46594a;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -431,7 +431,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #6e9075;
 }
 
 #taskList span {
