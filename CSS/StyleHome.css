@@ -359,6 +359,7 @@ footer {
 
 .Titulol{
     font-size: 25px;
-    text-align: justify;
+    display:flex;
+    text-align:center;
     color: black;
 }
