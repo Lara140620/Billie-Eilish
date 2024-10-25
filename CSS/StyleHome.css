@@ -416,6 +416,7 @@ input[type="file"] {
 }
 
 button {
+    display: flex;
     background-color: #007BFF;
     color: white;
     border: none;
