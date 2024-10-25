@@ -358,8 +358,8 @@ footer {
 /*Pagina Lista*/
 
 .Titulol{
-    font-size: 25px;
-    display:flex;
-    text-align:center;
-    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    color: rgb(0, 0, 0);
 }
