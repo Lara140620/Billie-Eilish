@@ -2,13 +2,14 @@ body, html{
   background-color: #9FB1A4;
   height: 100%;
   margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+           
 /*Formulario*/
 
 .L-Caja{
