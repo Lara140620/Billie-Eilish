@@ -26,9 +26,9 @@ class componenteFooter extends HTMLElement {
     connectedCallback() {
       this.innerHTML =
         `
-    <a href="https://www.tiktok.com/@billieeilish?lang=es" target="_blank" ><img class="L-Logos" src="./Imagenes/vert.png" alt=""></a>
-    <a href="https://www.instagram.com/billieeilish/" target="_blank" ><img class="L-Logos" src="./Imagenes/veri.png" alt=""></a>
-    <a href="https://www.facebook.com/billieeilish/?locale=es_LA" target="_blank"><img class="L-Logos" src="./Imagenes/verf.png" alt=""></a>
+    <a href="https://www.tiktok.com/@billieeilish?lang=es" target="_blank" ><img class="L-Logos" src="../Imagenes/vert.png" alt=""></a>
+    <a href="https://www.instagram.com/billieeilish/" target="_blank" ><img class="L-Logos" src="../Imagenes/veri.png" alt=""></a>
+    <a href="https://www.facebook.com/billieeilish/?locale=es_LA" target="_blank"><img class="L-Logos" src="../Imagenes/verf.png" alt=""></a>
         `;
     }
   }
