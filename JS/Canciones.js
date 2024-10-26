@@ -47,10 +47,6 @@ function displayTasks(tasks) {
             <input type="checkbox" ${task.checked ? 'checked' : ''} onclick="toggleTask(${task.id})">
         `;
         
-            <button onclick="deleteTask(${task.id})" style="background: none; border: none; cursor: pointer;">
-                🗑️
-            </button>
-        
         taskList.appendChild(li);
     });
 }
