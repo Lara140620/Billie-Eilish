@@ -107,6 +107,35 @@ input[type="submit"]:hover {
 
 /*Responsive*/
 
+@media (max-width: 768px) {
+  .L-Caja {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  input[type="submit"], #mensaje, #contraseña, #ejemplo, #numero {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .L-Caja {
+    padding: 10px;
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  input[type="submit"], #mensaje, #contraseña, #ejemplo, #numero {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
 
 
 
