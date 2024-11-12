@@ -6,11 +6,13 @@ class componenteMenu extends HTMLElement {
       this.innerHTML =
         `
     <nav class="L-Menu">
+      <a href="./Home.html">
         <div class="L-TituloHome">Billie Eilish</div>
         <div class="L-ladoderecho">
             <a href="#biografia">Biografía</a>
             <a href="./Pag/Lista.html">Fotos Fans</a>
         </div>
+       </a>
     </nav>
         `;
     }
@@ -32,3 +34,5 @@ class componenteFooter extends HTMLElement {
     }
   }
   customElements.define('componente-footer', componenteFooter);
+
+ 
