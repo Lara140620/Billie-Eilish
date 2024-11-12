@@ -130,6 +130,21 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .L-Caja {
+      padding: 10px;
+  }
+
+  .L-cajaprincipal {
+      width: 100%;
+      padding: 15px;
+  }
+
+  .L-Titulos h1, .L-Titulos h3 {
+      font-size: 1.5em;
+      text-align: center;
+  }
+}
 
 
 
