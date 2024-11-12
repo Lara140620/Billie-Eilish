@@ -156,9 +156,35 @@ footer {
 
 /*Imagen Final y Texto 3 y 4*/
 
-.L-ImgFinal{
+.L-ImgFinal {
     display: flex;
     justify-content: center;
+    width: 100%; 
+    max-width: 100%; 
+}
+
+.L-ImgFinal img {
+    width: 100%; 
+    max-width: 600px; 
+    height: auto; 
+}
+
+@media screen and (max-width: 768px) {
+    .L-ImgFinal {
+        margin-bottom: 20px; 
+    }
+
+    .L-ImgFinal img {
+        max-width: 100%;  
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .L-ImgFinal img {
+        max-width: 100%; 
+        width: 95%; 
+    }
 }
 
 .L-TextoF{
@@ -703,7 +729,7 @@ button:hover {
     }
 
     .Lfotosfinal img {
-        width: 90%; 
+        width: 90%;  
         max-width: 250px; 
     }
 }
