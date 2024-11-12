@@ -735,3 +735,35 @@ button:hover {
         max-width: 250px; 
     }
 }
+
+/*Pagina Canciones Tamaño*/
+
+@media (max-width: 768px) {
+    .LContenedorcanciones {
+        width: 70%; 
+        padding: 15px;
+    }
+
+    #L-letra {
+        width: 90%; 
+        font-size: 16px; 
+        line-height: 1.5; 
+        margin-top: 10%; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .LContenedorcanciones {
+        width: 90%; 
+        padding: 10px;
+        height: auto; 
+    }
+
+    #L-letra {
+        width: 100%; 
+        font-size: 14px; 
+        line-height: 1.4; 
+        margin-top: 5%; 
+    }
+}
