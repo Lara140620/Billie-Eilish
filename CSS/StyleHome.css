@@ -469,3 +469,28 @@ button:hover {
 
 /*Responsive*/
 
+/*Cartel Inicio*/
+
+@media (max-width: 768px) {
+    .L-BienCartel {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    #Botondebillie {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .L-BienCartel {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #Botondebillie {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
