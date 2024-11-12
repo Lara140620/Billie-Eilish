@@ -42,7 +42,7 @@ body{
     background-color:#46594A ;
     color:white;
     position: fixed;
-    
+    width: 100%;
     top:0;
     left: 0;
     z-index: 1000;  
@@ -534,6 +534,8 @@ button:hover {
     .L-Menu {
         padding: 10px;
         justify-content: space-between;
+        width: 100%;
+        
     }
 
     .L-TituloHome {
