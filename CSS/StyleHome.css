@@ -35,6 +35,7 @@ body{
 /*Menu*/
 .Lletradebillie{
     text-decoration: none;
+    color: white;
 }
 .L-Menu{
     display: flex;
