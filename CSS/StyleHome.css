@@ -696,7 +696,7 @@ button:hover {
     }
 
     .L-TextoF {
-        font-size: 14px;  
+        font-size: 18px;  
         padding: 50px 20px;  
         flex: 1;  
     }
@@ -718,7 +718,7 @@ button:hover {
     }
 
     .L-TextoF {
-        font-size: 12px;  
+        font-size: 18px;  
         padding: 30px 15px; 
         line-height: 1.5;  
     }
