@@ -701,7 +701,10 @@ button:hover {
         flex: 1;  
     }
 
-  
+    .Lfotosfinal {
+        flex-direction: column;  
+        gap: 20px;  
+    }
 
     .Lfotosfinal img {
         width: 80%; 
@@ -720,6 +723,9 @@ button:hover {
         line-height: 1.5;  
     }
 
+    .Lfotosfinal {
+        gap: 10px; 
+    }
 
     .Lfotosfinal img {
         width: 90%;  
