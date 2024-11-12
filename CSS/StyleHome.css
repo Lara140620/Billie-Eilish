@@ -306,7 +306,7 @@ footer {
   }
 
 
-/*Coockies*/
+/*Cookies*/
 
 #LFCoockie{
     display: none;
@@ -517,6 +517,21 @@ button:hover {
         right: 8px;
         padding: 5px 10px;
         font-size: 15px;
+        width: auto; 
+    }
+}
+
+/*Cockies*/
+@media screen and (max-width: 480px) {
+    #LFCoockie {
+        padding: 10px;
+        font-size: 14px;
+        width: auto; 
+    }
+
+    #LFCoockie button {
+        padding: 8px 16px;
+        font-size: 14px;
         width: auto; 
     }
 }
