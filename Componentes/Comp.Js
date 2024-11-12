@@ -6,7 +6,7 @@ class componenteMenu extends HTMLElement {
       this.innerHTML =
         `
     <nav class="L-Menu">
-      <a  class="Lletradebillie" href="./Home.html">
+      <a  class="Lletradebillie" href="../Home.html">
         <div class="L-TituloHome">Billie Eilish</div>
         <div class="L-ladoderecho">
             <a href="#biografia">Biografía</a>
