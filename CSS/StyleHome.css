@@ -33,7 +33,9 @@ body{
 
 
 /*Menu*/
-
+.Lletradebillie{
+    text-decoration: none;
+}
 .L-Menu{
     display: flex;
     justify-content: space-between;
