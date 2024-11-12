@@ -549,3 +549,46 @@ button:hover {
         width: auto;
     }
 }
+
+
+/*Menú*/
+
+@media screen and (max-width: 768px) {
+    .L-Menu {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .L-TituloHome {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .L-ladoderecho {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .L-ladoderecho a {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .L-Menu {
+        padding: 10px;
+    }
+
+    .L-TituloHome {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .L-ladoderecho a {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+}
