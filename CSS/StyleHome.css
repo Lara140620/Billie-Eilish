@@ -661,3 +661,49 @@ button:hover {
         margin-left: 0;
     }
 }
+
+
+/*Imagenes y dos ultimos textos*/
+@media screen and (max-width: 768px) {
+    .L-ImgFinal {
+        margin-bottom: 20px; 
+    }
+
+    .L-TextoF {
+        font-size: 14px;  
+        padding: 50px 20px;  
+        flex: 1;  
+    }
+
+    .Lfotosfinal {
+        flex-direction: column;  
+        gap: 20px;  
+    }
+
+    .Lfotosfinal img {
+        width: 80%; 
+        max-width: 300px;  
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .L-ImgFinal {
+        margin-bottom: 10px; 
+    }
+
+    .L-TextoF {
+        font-size: 12px;  
+        padding: 30px 15px; 
+        line-height: 1.5;  
+    }
+
+    .Lfotosfinal {
+        flex-direction: column;  
+        gap: 10px; 
+    }
+
+    .Lfotosfinal img {
+        width: 90%; 
+        max-width: 250px; 
+    }
+}
