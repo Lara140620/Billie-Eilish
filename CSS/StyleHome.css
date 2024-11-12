@@ -610,11 +610,11 @@ button:hover {
     }
 
     .L-Informacion .L-InfoBio h2 {
-        font-size: 20px; 
+        font-size: 24px; 
     }
 
     .L-Informacion .L-InfoBio p {
-        font-size: 12px;  
+        font-size: 18px;  
         line-height: 1.5;  
     }
 }
