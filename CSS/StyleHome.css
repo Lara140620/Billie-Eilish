@@ -509,3 +509,14 @@ button:hover {
         width: auto; 
     }
 }
+
+
+@media (max-width: 768px) {
+    .Lcerrar {
+        top: 8px;
+        right: 8px;
+        padding: 5px 10px;
+        font-size: 15px;
+        width: auto; 
+    }
+}
