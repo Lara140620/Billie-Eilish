@@ -133,3 +133,49 @@ img {
     align-items: center;
    
 }
+
+
+@media (max-width: 768px) {
+    #songList {
+        width: 90%; 
+        padding: 10px;
+    }
+
+    .song-number {
+        font-size: 16px; 
+    }
+
+    .song-title {
+        font-size: 15px;
+    }
+
+    .song-duration {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #songList {
+        width: 100%; 
+        margin: 10px auto;
+        padding: 5px;
+    }
+
+    .song-item {
+        flex-direction: column; 
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .song-number,
+    .song-title,
+    .song-duration {
+        font-size: 14px; 
+        margin-bottom: 5px; 
+    }
+    
+    .song-title {
+        margin-right: 0; 
+    }
+}
