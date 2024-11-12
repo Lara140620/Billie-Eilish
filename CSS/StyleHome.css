@@ -469,33 +469,3 @@ button:hover {
 
 /*Responsive*/
 
-
-@media (max-width: 768px) {
-    .L-Informacion {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .L-ImgBillie, .L-ImgDerecho, .L-ImgFinal {
-        width: 100%;
-        margin: auto;
-    }
-
-    .L-InfoBio, .L-Infoherel, .L-TextoF {
-        padding: 10px;
-        font-size: 1em;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .LContenedorcanciones {
-        padding: 10px;
-        font-size: 0.9em;
-    }
-
-    #L-letra {
-        font-size: 1.2em;
-        text-align: center;
-    }
-}
