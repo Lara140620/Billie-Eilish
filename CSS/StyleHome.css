@@ -576,14 +576,13 @@ button:hover {
 @media screen and (max-width: 480px) {
     .L-Menu {
         padding: 10px;
-        flex-direction: row; 
         justify-content: space-between; 
     }
 
     .L-TituloHome {
-        font-size: 20px;
+        font-size: 24px;
     }
-    
+
     .L-ladoderecho {
         flex: 1;  
         justify-content: flex-end; 
@@ -591,6 +590,6 @@ button:hover {
 
     .L-ladoderecho a {
         font-size: 16px;
-        padding: 8px 15px;
+        padding: 18px;
     }
 }
