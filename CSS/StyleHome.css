@@ -27,9 +27,12 @@ body{
     hsl(92deg 10% 45%) 95%,
     hsl(93deg 11% 43%) 100%
   );
-  
+  overflow-x: hidden;
   }
 
+* {
+    box-sizing: border-box; 
+}
 
 
 /*Menu*/
