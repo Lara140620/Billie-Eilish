@@ -54,7 +54,7 @@ img {
 
 
 
-/* Transición suave para contenido cargado */
+
 #LContenedorBillie p {
     font-size: 18px;
     color: #000000;
@@ -62,13 +62,12 @@ img {
     
 }
 
-/* Alinear el contenedor y hacerlo responsivo */
+
 #LContenedorBillie {
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Estilos responsivos */
 @media (max-width: 768px) {
     button {
         width: 100%;
@@ -80,6 +79,41 @@ img {
     }
 }
 
+@media (max-width: 768px) {
+    .Lnavboton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        width: 90%; 
+        margin-bottom: 10px;
+    }
+
+    #LContenedorBillie {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px; 
+    }
+
+    button {
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+
+    #LContenedorBillie p {
+        font-size: 16px; 
+    }
+
+    #LContenedorBillie {
+        padding: 10px;
+    }
+}
 
 
 
