@@ -27,12 +27,9 @@ body{
     hsl(92deg 10% 45%) 95%,
     hsl(93deg 11% 43%) 100%
   );
-  overflow-x: hidden;
+
   }
 
-* {
-    box-sizing: border-box; 
-}
 
 
 /*Menu*/
@@ -244,6 +241,7 @@ footer {
 }
 #LContenidodeP{
     display: none;
+    
 }
 
 /* Pop-up */
@@ -562,4 +560,61 @@ button:hover {
         justify-content: flex-end; 
     }
 
+}
+
+
+
+/*Informacion de Billie*/
+
+@media screen and (max-width: 768px) {
+    .L-Informacion {
+        flex-direction: column; 
+        padding: 15px;
+        align-items: center;
+    }
+
+    .L-Informacion .L-ImgBillie {
+        max-width: 80%;  
+        margin: 0;  
+        margin-bottom: 20px;
+    }
+
+    .L-Informacion .L-InfoBio {
+        flex: 1;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .L-Informacion .L-InfoBio h2 {
+        font-size: 24px; 
+    }
+
+    .L-Informacion .L-InfoBio p {
+        font-size: 14px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .L-Informacion {
+        padding: 10px;
+    }
+
+    .L-Informacion .L-ImgBillie {
+        max-width: 90%; 
+        margin: 0;
+    }
+
+    .L-Informacion .L-InfoBio {
+        padding-left: 0;
+        text-align: justify;
+    }
+
+    .L-Informacion .L-InfoBio h2 {
+        font-size: 20px; 
+    }
+
+    .L-Informacion .L-InfoBio p {
+        font-size: 12px;  
+        line-height: 1.5;  
+    }
 }
