@@ -618,3 +618,46 @@ button:hover {
         line-height: 1.5;  
     }
 }
+
+/*Texo 2*/
+
+@media screen and (max-width: 768px) {
+    .L-Hermanoyella {
+        flex-direction: column;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .L-Hermanoyella .L-Infoherel {
+        flex: 1;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .L-Hermanoyella .L-Infoherel p {
+        font-size: 14px;  
+    }
+
+    .L-Hermanoyella .L-ImgDerecho {
+        max-width: 80%; 
+        margin-left: 0;
+        margin-bottom: 20px;  
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .L-Hermanoyella {
+        padding: 10px;
+    }
+
+    .L-Hermanoyella .L-Infoherel p {
+        font-size: 12px;  
+        line-height: 1.5;  
+    }
+
+    .L-Hermanoyella .L-ImgDerecho {
+        max-width: 90%;  
+        margin-left: 0;
+    }
+}
