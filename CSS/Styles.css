@@ -109,7 +109,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 768px) {
   .L-Caja {
-    padding: 20px;
+    padding: 30px;
   }
 
   h1 {
