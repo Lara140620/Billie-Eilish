@@ -415,7 +415,7 @@ input[type="file"] {
 
 .Tareasl button {
     background-color: #46594a;
-    color: white;
+    color: light-dark (#000000,#ffffff);
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
