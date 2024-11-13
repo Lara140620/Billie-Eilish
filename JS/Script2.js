@@ -31,14 +31,22 @@ document.getElementById('Happier').addEventListener('click', function() {
 
 /*Boton de Modo Oscuro - Modo Claro*/ 
 
-const modeToggle = document.getElementById("modeToggle");
-modeToggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark");
-    if (document.body.classList.contains("dark")) {
-        modeToggle.textContent = "Modo Claro";
+document.addEventListener("DOMContentLoaded", function () {
+    const modeToggle = document.getElementById("modeToggle");
+
+   
+    if (modeToggle) {
+
+        modeToggle.addEventListener("click", function () {
+            document.body.classList.toggle("dark-mode");
+            if (document.body.classList.contains("dark-mode")) {
+                modeToggle.textContent = "Modo Claro";
+            } else {
+                modeToggle.textContent = "Modo Oscuro";
+            }
+        });
     } else {
-        modeToggle.textContent = "Modo Oscuro";
+        console.error("El botón de modo oscuro no se encontró.");
     }
 });
-
 
