@@ -1,3 +1,7 @@
+:root {
+    color-scheme: light dark;
+   }
+   
 body{
     height: 100%;
     margin: 0;
@@ -30,7 +34,8 @@ body{
 
   }
 
-
+  
+   
 
 /*Menu*/
 .Lletradebillie{
