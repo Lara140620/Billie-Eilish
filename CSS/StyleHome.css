@@ -1,41 +1,16 @@
 :root {
     color-scheme: light dark;
    }
-   
+
 body{
     height: 100%;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(
-    180deg,
-    hsl(93deg 44% 95%) 0%,
-    hsl(93deg 31% 92%) 5%,
-    hsl(93deg 24% 90%) 10%,
-    hsl(93deg 20% 87%) 14%,
-    hsl(93deg 18% 85%) 19%,
-    hsl(93deg 16% 82%) 24%,
-    hsl(93deg 15% 80%) 29%,
-    hsl(93deg 14% 77%) 33%,
-    hsl(93deg 13% 74%) 38%,
-    hsl(92deg 12% 72%) 43%,
-    hsl(92deg 11% 69%) 48%,
-    hsl(92deg 11% 67%) 52%,
-    hsl(92deg 11% 65%) 57%,
-    hsl(92deg 10% 62%) 62%,
-    hsl(92deg 10% 60%) 67%,
-    hsl(92deg 10% 57%) 71%,
-    hsl(92deg 9% 55%) 76%,
-    hsl(92deg 9% 52%) 81%,
-    hsl(92deg 9% 50%) 86%,
-    hsl(92deg 9% 48%) 90%,
-    hsl(92deg 10% 45%) 95%,
-    hsl(93deg 11% 43%) 100%
-  );
+    background-color:#bcc5b4;
 
   }
 
-  
-   
+
 
 /*Menu*/
 .Lletradebillie{
