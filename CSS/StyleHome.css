@@ -339,7 +339,7 @@ footer {
     align-items: center;
     line-height: 47px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: light-dark (#000000,#ffffff);
+    color: light-dark (#ffffff,#000000);
 }
 
 .LContenedorcanciones{
