@@ -9,6 +9,7 @@ class componenteMenu extends HTMLElement {
       <a  class="Lletradebillie" href="../Home.html">
         <div class="L-TituloHome">Billie Eilish</div>
         <div class="L-ladoderecho">
+        <button id="modeToggle">Modo Oscuro</button>
             <a href="#biografia">Biografía</a>
             <a href="./Pag/Lista.html">Fotos Fans</a>
         </div>
