@@ -460,7 +460,13 @@ button:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+@media (max-width: 480px) {
+    .Tareasl{
+        font-size: 14px;
+        padding: 6px 12px;
+        width: auto; 
+    }
+}
 
 
 
