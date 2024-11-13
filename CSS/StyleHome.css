@@ -1,33 +1,13 @@
 :root {
-     color-scheme: light dark;
-    --color-bg-light: #bcc5b4;
-    --color-bg-dark: #7b8573;
-    --color-text-light: #000000;
-    --color-text-dark: #ffffff;
+    color-scheme: light dark;
    }
-
-
-/* Modo claro y oscuro */
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: var(--color-bg-light);
-        color: var(--color-text-light);
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: var(--color-bg-dark);
-        color: var(--color-text-dark);
-    }
-}
 
 body{
     height: 100%;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: var(--color-bg-dark);
-    color: var(--color-text-dark);
+    background-color:light-dark(#bcc5b4,#7b8573);
+    color: light-dark (#000000,#ffffff);
   }
 
 
@@ -359,7 +339,7 @@ footer {
     align-items: center;
     line-height: 47px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
+    color: light-dark (#ffffff,#000000);
 }
 
 .LContenedorcanciones{
