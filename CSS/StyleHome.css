@@ -338,7 +338,6 @@ footer {
     text-align: justify;
     align-items: center;
     line-height: 47px;
-    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: light-dark (#000000,#ffffff);
 }
@@ -347,7 +346,7 @@ footer {
     margin: auto;
     height: 50%;
     width: 23%;
-    background-color:light-dark ( rgba(74, 102, 74, 0.5),rgba(33, 50, 33, 0.5));
+    background-color:light-dark ( #4a664a80,#21322180);
     border-radius: 5px;
 }
 
