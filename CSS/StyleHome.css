@@ -435,7 +435,7 @@ button:hover {
 #taskList span {
     flex-grow: 1;
     margin-left: 10px;
-    color: light-dark (#000000,#ffffff);
+    color:  #000000;
 }
 
 #taskList input[type="checkbox"] {
