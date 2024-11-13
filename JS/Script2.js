@@ -33,20 +33,10 @@ document.getElementById('Happier').addEventListener('click', function() {
 
 document.addEventListener("DOMContentLoaded", function () {
     const modeToggle = document.getElementById("modeToggle");
-
-   
-    if (modeToggle) {
-
-        modeToggle.addEventListener("click", function () {
-            document.body.classList.toggle("dark-mode");
-            if (document.body.classList.contains("dark-mode")) {
-                modeToggle.textContent = "Modo Claro";
-            } else {
-                modeToggle.textContent = "Modo Oscuro";
-            }
-        });
-    } else {
-        console.error("El botón de modo oscuro no se encontró.");
-    }
+    modeToggle.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+        modeToggle.textContent = document.body.classList.contains("dark-mode") ? "Modo Claro" : "Modo Oscuro";
+    });
 });
+
 
