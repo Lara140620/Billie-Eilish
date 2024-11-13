@@ -50,8 +50,7 @@ footer {
     padding:10px;
     background-color:hsl(133, 12%, 31%) ;
     color: white;
-    text-align: center;
-    
+    text-align: center;  
    
 }
 
@@ -71,6 +70,7 @@ footer {
     padding: 20px;
     max-width: 1200px;
     margin: 20px auto;
+    color: light-dark (#000000,#ffffff);
 }
 
 .L-Informacion .L-ImgBillie{
@@ -78,28 +78,33 @@ footer {
    max-width: 400px;
    margin-right: 100px;
    margin-left: -50px;
+   color: light-dark (#000000,#ffffff);
 }
 
 .L-Informacion .L-ImgBillie img{
    max-width: 100%;
    height: auto;
+   color: light-dark (#000000,#ffffff);
     
  }
 
  .L-Informacion .L-InfoBio {
     flex: 2;
     padding-left: 20px;
+    color: light-dark (#000000,#ffffff);
  }
 
  .L-Informacion .L-InfoBio h2{
     font-size: 28px;
     margin-bottom: 20px;
+    color: light-dark (#000000,#ffffff);
  }
 
  .L-Informacion .L-InfoBio p{
     font-size: 16px;
     text-align: justify;
     line-height: 1.6;
+    color: light-dark (#000000,#ffffff);
  }
 
  /*Información Billie 2*/
@@ -111,11 +116,13 @@ footer {
     padding: 20px;
     max-width: 1200px;
     margin: 20px auto;
+    color: light-dark (#000000,#ffffff);
  }
 
  .L-Hermanoyella .L-Infoherel{
     flex: 2;
     padding-right: 250px;
+    color: light-dark (#000000,#ffffff);
  }
 
  
@@ -123,6 +130,7 @@ footer {
    font-size: 16px;
    line-height: 1.6;
    text-align: justify;
+   color: light-dark (#000000,#ffffff);
  }
 
  
@@ -176,6 +184,7 @@ footer {
    text-align: justify;
    flex: 2;
    padding: 100px;
+   color: light-dark (#000000,#ffffff);
 }
 
 .Lfotosfinal{
@@ -331,13 +340,14 @@ footer {
     line-height: 47px;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: light-dark (#000000,#ffffff);
 }
 
 .LContenedorcanciones{
     margin: auto;
     height: 50%;
     width: 23%;
-    background-color: rgba(74, 102, 74, 0.5);
+    background-color:light-dark ( rgba(74, 102, 74, 0.5),rgba(33, 50, 33, 0.5));
     border-radius: 5px;
 }
 
@@ -355,7 +365,7 @@ footer {
 }
 
 h1 {
-    color: #000000;
+    color: light-dark (#000000,#ffffff);
 }
 
 
