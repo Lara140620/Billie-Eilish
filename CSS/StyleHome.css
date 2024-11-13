@@ -466,6 +466,11 @@ button:hover {
         padding: 6px 12px;
         width: auto; 
     }
+    #taskList{
+        font-size: 14px;
+        padding: 6px 12px;
+        width: auto; 
+    }
 }
 
 
