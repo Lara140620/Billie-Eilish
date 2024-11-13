@@ -29,14 +29,6 @@ document.getElementById('Happier').addEventListener('click', function() {
 });
 
 
-/*Boton de Modo Oscuro - Modo Claro*/ 
 
-document.addEventListener("DOMContentLoaded", function () {
-    const modeToggle = document.getElementById("modeToggle");
-    modeToggle.addEventListener("click", function () {
-        document.body.classList.toggle("dark-mode");
-        modeToggle.textContent = document.body.classList.contains("dark-mode") ? "Modo Claro" : "Modo Oscuro";
-    });
-});
 
 
