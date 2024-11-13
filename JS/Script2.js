@@ -33,8 +33,8 @@ document.getElementById('Happier').addEventListener('click', function() {
 
 const modeToggle = document.getElementById("modeToggle");
 modeToggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-    if (document.body.classList.contains("dark-mode")) {
+    document.body.classList.toggle("dark");
+    if (document.body.classList.contains("dark")) {
         modeToggle.textContent = "Modo Claro";
     } else {
         modeToggle.textContent = "Modo Oscuro";
